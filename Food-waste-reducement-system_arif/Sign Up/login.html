@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css">
+    <link href='https://fonts.googleapis.com/css?family=Libre Baskerville' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway Dots' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="login1-form-container" id="login-content">
+        <a id="close-login-btn" class="fas fa-times" href="#"></a>
+        <form>
+            <h3>Login</h3>
+            <span>Email</span>
+            <input type="email" name="email" class="box" placeholder="Enter Your Email" id="email">
+            <span>Password</span>
+            <input type="password" name="password" class="box" placeholder="Enter Your Password" id="password">
+            <span>Role</span>
+            <select name="role" class="box" id="role">
+                <option value="volunteer" id="volunteer">Volunteer</option>
+                <option value="donor" id="donor">Donor</option>
+                <option value="recipient" id="recipient">Recipient</option>
+                <option value="manager" id="manager">Manager</option>
+                <option value="customer" id="customer">Customer</option>
+            </select>
+            
+           
+            <input type="submit" name="submit" value="Log in" class="btn" id="submit">
+            <p>Dont have an account? <a href="role.html" id="create">Create One Now!</a></p>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+    
+
+</body>
+</html>
